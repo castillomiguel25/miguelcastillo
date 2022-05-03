@@ -7,7 +7,9 @@
       <div class="row mt-5 ml-5">
         <div class="col-4 text-center animate__animated animate__wobble animate__delay2s">
           <h1 >Miguel Castillo</h1>
-          <p>Junior Full Stack Developer</p>
+          <p>
+      Frontend developer
+          </p>
           
        
         </div>
