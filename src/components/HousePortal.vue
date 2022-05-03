@@ -8,7 +8,7 @@
         <div class="col-4 text-center animate__animated animate__wobble animate__delay2s">
           <h1 >Miguel Castillo</h1>
           <p>
-      Frontend developer
+      Frontend Developer
           </p>
           
        
