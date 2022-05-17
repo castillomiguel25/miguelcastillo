@@ -26,9 +26,9 @@
                 <b class="col text-center">
                   <p>Contact me</p>
 
-                  <li>
+                  
                     <p>Miguelangelcastillo947@gmail.com</p>
-                  </li>
+                  
 
                   <li>
                     <a
@@ -49,14 +49,14 @@
                   </li>
                 </b>
                 <b class="col-12 text-center mt-5">
-                  <b-icon shift-v="8" icon="linkedin" font-scale="5"></b-icon>
-                  <b-icon shift-v="8" icon="github" font-scale="5"></b-icon>
+                  <b-icon shift-v="8" icon="linkedin" font-scale="4"></b-icon>
+                  <b-icon shift-v="8" icon="github" font-scale="4"></b-icon>
                 </b>
               </b>
             </b-sidebar>
           </b-nav-item>
           <b-nav-item href="#" disabled>
-            <b-icon shift-v="8" icon="chat-dots" font-scale="5"></b-icon>
+            <b-icon shift-v="8" icon="chat-dots" font-scale="4"></b-icon>
           </b-nav-item>
 
           
