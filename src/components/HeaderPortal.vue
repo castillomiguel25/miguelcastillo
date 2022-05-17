@@ -24,29 +24,19 @@
               </div>
               <b class="row">
                 <b class="col text-center">
-                  <p>Contact me</p>
-
-                  
+                  <p>Contact me </p>
                     <p>Miguelangelcastillo947@gmail.com</p>
-                  
-
-                  <li>
                     <a
                       href="https://www.linkedin.com/in/miguel-angel-castillo-colmenares-2438031b1/"
                     >
                       LinkedIn
                     </a>
-                  </li>
-                  <li>
                     <a
                       href="https://api.whatsapp.com/send?phone=+584124431994&text=%20Hola%20estoy%20interesado%20en%20tus%20servicios"
                     >
                       WhatsApp
                     </a>
-                  </li>
-                  <li>
                     <a href="https://github.com/castillomiguel25"> GitHub </a>
-                  </li>
                 </b>
                 <b class="col-12 text-center mt-5">
                   <b-icon shift-v="8" icon="linkedin" font-scale="4"></b-icon>
