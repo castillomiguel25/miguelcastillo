@@ -69,7 +69,7 @@
           I characterize myself as a person who loves to learn, responsible and
           outstanding in what he does <br />
           I am a Web developer and TSU in electricity, experienced in Vue.js,
-          Javascript, Html, Css, Git and various frameworks.
+          Javascript, Html, Css, Git and various Frameworks.
         </p>
       </div>
     </div>
@@ -114,7 +114,6 @@
       <div class="col-4 text-left">
         <p>Address: Venezuela</p>
         <br />
-        <p>Phone: +58-412-443-1994</p>
       </div>
       <div id="icon" class="col-2 text-left">
         <b-icon
@@ -124,12 +123,6 @@
           font-scale="2"
         ></b-icon
         ><br /><br />
-        <b-icon
-          animation="cylon"
-          shift-v="8"
-          icon="phone"
-          font-scale="2"
-        ></b-icon>
         <br /><br />
         <b-icon
           animation="cylon"
