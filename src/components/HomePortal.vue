@@ -81,13 +81,13 @@
       <div class="col-12 text-center mb-5">
         <h3>Personal Infos</h3>
       </div>
-      <div class="col-4 text-left">
+      <div class="col-12 col-lg-4 col-md-4 text-left">
         <p>First Name: Miguel Angel</p>
         <p>Last Name: Castillo Colmenares</p>
         <p>Age: 24</p>
         <p>Nationality: Venezolana</p>
       </div>
-      <div id="icon" class="col-2 text-left">
+      <div id="icon" class="col-12 col-md-2 col-lg-2 text-left">
         <b-icon
           animation="cylon"
           shift-v="8"
@@ -111,11 +111,12 @@
         ></b-icon>
         <br /><br />
       </div>
-      <div class="col-4 text-left">
+      <div class="col-12 col-lg-4 col-md-4 text-left">
         <p>Address: Venezuela</p>
-        <br />
+       
+        <p>Phone: +58-412-443-1994</p>
       </div>
-      <div id="icon" class="col-2 text-left">
+      <div id="icon" class="col-12 col-md-2 col-lg-2 text-left">
         <b-icon
           animation="cylon"
           shift-v="8"
@@ -123,6 +124,12 @@
           font-scale="2"
         ></b-icon
         ><br /><br />
+        <b-icon
+          animation="cylon"
+          shift-v="8"
+          icon="phone"
+          font-scale="2"
+        ></b-icon>
         <br /><br />
         <b-icon
           animation="cylon"
@@ -153,3 +160,4 @@ export default {
   box-sizing: padding-box;
 }
 </style>
+
