@@ -68,8 +68,8 @@
         <p>
           I characterize myself as a person who loves to learn, responsible and
           outstanding in what he does <br />
-          I am a Web developer and TSU in electricity, experienced in Vue.js,
-          Javascript, Html, Css, Git and various Frameworks.
+          I am a Web developer and TSU in Electricity, experienced in Vue.js,
+          Javascript,Vuex,Firebase,Nuxt, Html, Css, Git and various Frameworks.
         </p>
       </div>
     </div>
