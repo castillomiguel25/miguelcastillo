@@ -137,6 +137,29 @@
         <b-button href="https://github.com/castillomiguel25/clon-de-trello" class="mt-3" variant="primary"> Code</b-button>
         </b-card>
       </div>
+
+      <div class="col-12 col-md-6 text-center col-lg-3 cardss">
+        <b-card
+         img-height="300"
+          bg-variant="dark"
+          text-variant="light"
+          title="Agrega tus Tareas"
+          img-src="@/components/img/bien.webp"
+          img-alt="Image"
+          img-top
+          tag="article"
+          class="mb-5"
+        >
+         
+
+            <b-button href="https://castillomiguel25.github.io/HacerTareas/" class="ml-3 mt-3 mr-5"
+          >View</b-button
+        >
+        <b-button href="https://github.com/castillomiguel25/HacerTareas/tree/main" class="mt-3" variant="primary"> Code</b-button>
+        </b-card>
+      </div>
+
+    
       
     </div>
   </div>
@@ -144,5 +167,4 @@
 
 
 <style scoped>
-
 </style>

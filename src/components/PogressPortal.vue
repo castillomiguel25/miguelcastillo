@@ -160,6 +160,9 @@
       <div class="col-4">
         <b-img src="@/components/img/firebase..svg" height="60px"></b-img>
       </div>
+       <div class="col-4">
+        <b-img src="@/components/img/react-2.svg" height="60px"></b-img>
+      </div>
       
     </div>
     <div class="row">
@@ -176,6 +179,17 @@
       </div>
        <div class="col-4">
         <h6>FIREBASE</h6>
+        <b-progress
+          :value="value"
+          variant="success"
+          :striped="striped"
+          :max="max"
+          show-progress
+          class="mb-3"
+        ></b-progress>
+      </div>
+      <div class="col-4">
+        <h6>REACT.JS</h6>
         <b-progress
           :value="value"
           variant="success"
