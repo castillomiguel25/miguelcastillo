@@ -144,7 +144,7 @@
           bg-variant="dark"
           text-variant="light"
           title="Agrega tus Tareas"
-          img-src="@/components/img/91561.svg"
+          img-src="@/components/img/new.png"
           img-alt="Image"
           img-top
           tag="article"
