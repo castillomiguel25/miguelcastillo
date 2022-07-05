@@ -3,58 +3,51 @@
     <h1 class="animate__animated animate__wobble animate__delay3s">
       <strong> About me</strong>
     </h1>
+    <a href="#">
+      <b v-b-toggle.sidebar-variant class="button">
+        <b-icon
+          class="mt-5"
+          shift-v="8"
+          icon="person-bounding-box"
+          font-scale="3"
+        ></b-icon
+      ></b>
+      <b-sidebar
+        id="sidebar-variant"
+        bg-variant="dark"
+        text-variant="light"
+        shadow
+      >
+        <div class="px-3 py-2">
+          <b-img src="@/components/100499673.jpg" fluid thumbnail></b-img>
+        </div>
+        <b class="row mb-3">
+          <b class="col-12 text-center">
+            <p>Contact me</p>
+            <p>Miguelangelcastillo947@gmail.com</p>
+          </b>
+         
+          <b class="col-12">
+            <a
+             
+            >
+              WhatsApp
+            </a>
+          </b>
 
-    <b v-b-toggle.sidebar-variant class="button">
-      <b-icon
-        class="mt-5"
-        shift-v="8"
-        icon="person-bounding-box"
-        font-scale="3"
-      ></b-icon
-    ></b>
-    <b-sidebar
-      id="sidebar-variant"
-      bg-variant="dark"
-      text-variant="light"
-      shadow
-    >
-      <div class="px-3 py-2">
-        <b-img src="@/components/100499673.jpg" fluid thumbnail></b-img>
-      </div>
-      <b class="row mb-3">
-        <b class="col-12 text-center">
-          <p>Contact me</p>
-          <p>Miguelangelcastillo947@gmail.com</p>
+         
         </b>
-        <b class="col-12">
-          <a
-            href="https://www.linkedin.com/in/miguel-angel-castillo-colmenares-2438031b1/"
-          >
-            LinkedIn
-          </a>
+        <b class="col-12 text-center mt-5">
+         <a  href="https://www.linkedin.com/in/miguel-angel-castillo-colmenares-2438031b1/"><b-icon icon="linkedin" font-scale="4"></b-icon> </a> 
         </b>
-        <b class="col-12">
-          <a
-            href="https://api.whatsapp.com/send?phone=+584124431994&text=%20Hola%20estoy%20interesado%20en%20tus%20servicios"
-          >
-            WhatsApp
-          </a>
+        <b class="col-12 text-center mt-5">
+         <a href="https://github.com/castillomiguel25"><b-icon icon="github" font-scale="4"></b-icon> </a> 
         </b>
-
-        <b class="col-12">
-           <a href="https://github.com/castillomiguel25"> GitHub </a>
+         <b class="col-12 text-center mt-5">
+         <a  href="https://api.whatsapp.com/send?phone=+584124431994&text=%20Hola%20estoy%20interesado%20en%20tus%20servicios"><b-icon icon="phone" font-scale="4"></b-icon> </a> 
         </b>
-
-       
-      </b>
-      <b class="col-12 text-center mt-5">
-        <b-icon  icon="linkedin" font-scale="5"></b-icon>
-       
-      </b>
-      <b class="col-12 text-center mt-5">
-        <b-icon  icon="github" font-scale="5"></b-icon>
-      </b>
-    </b-sidebar>
+      </b-sidebar>
+    </a>
     <b-icon
       class="mb-3 ml-5"
       animation="cylon"
@@ -87,56 +80,47 @@
         <p>Age: 24</p>
         <p>Nationality: Venezolana</p>
       </div>
-      <div id="icon" class="col-12 col-md-2 col-lg-2 text-left">
-        <b-icon
-          animation="cylon"
-          shift-v="8"
-          icon="file-person-fill
+      <div id="icon" class="a col-12 col-md-2 col-lg-2 text-left">
+        <a href="#">
+          <b-icon
+            animation="cylon"
+            shift-v="8"
+            icon="file-person-fill
 "
-          font-scale="2"
-        ></b-icon
-        ><br /><br />
-        <b-icon
-          animation="cylon"
-          shift-v="8"
-          icon="phone"
-          font-scale="2"
-        ></b-icon>
-        <br /><br />
-        <b-icon
-          animation="cylon"
-          shift-v="8"
-          icon="inbox"
-          font-scale="2"
-        ></b-icon>
+            font-scale="2"
+          ></b-icon>
+        </a>
+
         <br /><br />
       </div>
       <div class="col-12 col-lg-4 col-md-4 text-left">
         <p>Address: Venezuela</p>
-       
+
         <p>Phone: +58-412-443-1994</p>
       </div>
       <div id="icon" class="col-12 col-md-2 col-lg-2 text-left">
-        <b-icon
-          animation="cylon"
-          shift-v="8"
-          icon="geo-alt"
-          font-scale="2"
-        ></b-icon
-        ><br /><br />
-        <b-icon
-          animation="cylon"
-          shift-v="8"
-          icon="phone"
-          font-scale="2"
-        ></b-icon>
-        <br /><br />
-        <b-icon
-          animation="cylon"
-          shift-v="8"
-          icon="inbox"
-          font-scale="2"
-        ></b-icon>
+        <a href="#">
+          <b-icon
+            animation="cylon"
+            shift-v="8"
+            icon="geo-alt"
+            font-scale="2"
+          ></b-icon
+          ><br /><br />
+          <b-icon
+            animation="cylon"
+            shift-v="8"
+            icon="phone"
+            font-scale="2"
+          ></b-icon>
+          <br /><br />
+          <b-icon
+            animation="cylon"
+            shift-v="8"
+            icon="inbox"
+            font-scale="2"
+          ></b-icon>
+        </a>
         <br /><br />
       </div>
     </div>
@@ -159,5 +143,8 @@ export default {
   margin: 2px;
   box-sizing: padding-box;
 }
-</style>
 
+a {
+  color: rebeccapurple;
+}
+</style>

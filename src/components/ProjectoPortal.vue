@@ -5,30 +5,6 @@
         <h3>Completed Projects</h3>
       </div>
 
-       <div class="col-12 col-md-6 text-center col-lg-3">
-        
-        <b-card 
-          bg-variant="dark"
-          text-variant="light"
-          title="Conference Hawai"
-          img-src="@/components/img/hawaii.jpg"
-          img-alt="Image"
-          img-height="300"
-          img-top
-          tag="article"
-          class=" mb-5"
-        >
-         
-            
-           <b-button
-          href="https://agenciadigitalcreandolo.netlify.app/"
-          class="ml-3 mt-3 mr-5"
-          >View</b-button
-        >
-        <b-button  href="https://github.com/castillomiguel25/agencydigital" class=" mt-3" variant="primary"> Code</b-button>
-        </b-card>
-      </div>
-
        
 
       <div class="col-12 col-md-6 text-center col-lg-3">
@@ -51,7 +27,7 @@
           class="ml-3 mt-3 mr-5"
           >View</b-button
         >
-        <b-button  href="https://github.com/castillomiguel25/agencydigital" class=" mt-3" variant="primary"> Code</b-button>
+        <b-button  href="https://github.com/castillomiguel25/agencydigital" class="button mt-3" > Code</b-button>
         </b-card>
       </div>
 
@@ -70,10 +46,10 @@
             
          
 
-          <b-button href="http://cerrajerosre.com/" class="ml-3 mt-3 mr-5"
+          <b-button href="http://cerrajerosre.com/" class=" ml-3 mt-3 mr-5"
           >View</b-button
         >
-        <b-button href="#" class="mt-3" variant="primary"> Code</b-button>
+        <b-button href="#" class="button mt-3" > Code</b-button>
         </b-card>
       </div>
 
@@ -91,10 +67,10 @@
         >
           
 
-        <b-button href="https://layetanaproductions.com/" class="ml-3 mt-3 mr-5"
+        <b-button href="https://layetanaproductions.com/" class=" ml-3 mt-3 mr-5"
           >View</b-button
         >
-        <b-button href="#" class="mt-3" variant="primary"> Code</b-button>
+        <b-button href="#" class="button mt-3" > Code</b-button>
         </b-card>
       </div>
       <div class="col-12 col-md-6 text-center col-lg-3">
@@ -111,10 +87,10 @@
         >
          
 
-            <b-button href="https://tuexchangecrypto.netlify.app/" class="ml-3 mt-3 mr-5"
+            <b-button href="https://tuexchangecrypto.netlify.app/" class=" ml-3 mt-3 mr-5"
           >View</b-button
         >
-        <b-button href="https://github.com/castillomiguel25/Exchange-platzi" class="mt-3" variant="primary"> Code</b-button>
+        <b-button href="https://github.com/castillomiguel25/Exchange-platzi" class="button mt-3" > Code</b-button>
         </b-card>
       </div>
        <div class="col-12 col-md-6 text-center col-lg-3">
@@ -134,7 +110,7 @@
             <b-button href="#" class="ml-3 mt-3 mr-5"
           >View</b-button
         >
-        <b-button href="https://github.com/castillomiguel25/clon-de-trello" class="mt-3" variant="primary"> Code</b-button>
+        <b-button href="https://github.com/castillomiguel25/clon-de-trello" class="button mt-3" > Code</b-button>
         </b-card>
       </div>
 
@@ -152,10 +128,31 @@
         >
          
 
-            <b-button href="https://castillomiguel25.github.io/HacerTareas/" class="ml-3 mt-3 mr-5"
+            <b-button href="https://castillomiguel25.github.io/HacerTareas/" class=" ml-3 mt-3 mr-5"
           >View</b-button
         >
-        <b-button href="https://github.com/castillomiguel25/HacerTareas/tree/main" class="mt-3" variant="primary"> Code</b-button>
+        <b-button href="https://github.com/castillomiguel25/HacerTareas/tree/main" class="button mt-3" > Code</b-button>
+        </b-card>
+      </div>
+
+      <div class="col-12 col-md-6 text-center col-lg-3 cardss">
+        <b-card
+         img-height="300"
+          bg-variant="dark"
+          text-variant="light"
+          title="flujo de dinero"
+          img-src="@/components/img/cash.png"
+          img-alt="Image"
+          img-top
+          tag="article"
+          class="mb-5"
+        >
+         
+
+            <b-button href="https://managemoneycash.netlify.app" class=" ml-3 mt-3 mr-5"
+          >View</b-button
+        >
+        <b-button href="https://github.com/castillomiguel25/Cashflow" class="button mt-3" > Code</b-button>
         </b-card>
       </div>
 
@@ -167,4 +164,7 @@
 
 
 <style scoped>
+.button {
+  background: rebeccapurple;
+}
 </style>

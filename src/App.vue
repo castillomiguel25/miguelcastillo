@@ -22,7 +22,7 @@
                 </b-avatar>
               </router-link>
 
-              <b-avatar class="mr-5">
+              <b-avatar class="a mr-5">
                 <b-icon
                   class="mt-5"
                   shift-v="8"
@@ -33,7 +33,7 @@
                 </b-icon>
               </b-avatar>
 
-              <b-avatar class="mr-5">
+              <b-avatar class="a mr-5">
                 <router-link to="/Formulario">
                   <b-icon
                     class="mt-5"
@@ -96,5 +96,14 @@ export default {
 
 #img {
   border-radius: 100%;
+}
+
+a {
+  color: white;
+}
+
+.a{
+  background: rebeccapurple;
+  
 }
 </style>

@@ -68,4 +68,8 @@ export default {
 #img {
   border-radius: 100%;
 }
+
+a {
+  color: rebeccapurple;
+}
 </style>
