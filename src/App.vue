@@ -34,7 +34,7 @@
               </b-avatar>
 
               <b-avatar class="a mr-5">
-                <router-link to="/Formulario">
+                <router-link to="/forms">
                   <b-icon
                     class="mt-5"
                     shift-v="8"
@@ -59,10 +59,11 @@ export default {
     LoaderVi,
   },
 
+
   mounted() {
-    var vm = this;
+    const update = this;
     setTimeout(function () {
-      vm.isLoading = false;
+      update.isLoading = false;
     }, 1000);
   },
 
@@ -74,11 +75,11 @@ export default {
       colores: "f0f0f0",
     };
   },
+  
 
   methods: {
     OffOn() {
       this.on = !this.on;
-
       this.fondo = this.fondo.split("").reverse().join("");
       this.colores = this.colores.split("").reverse().join("");
     },

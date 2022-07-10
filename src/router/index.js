@@ -14,7 +14,7 @@ const routes = [
   },
 
   {
-    path: "/Formulario",
+    path: "/forms",
     name: "forms-portal",
     component: FormsPortal,
   },

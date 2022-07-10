@@ -84,6 +84,7 @@ import AcordionPortal from "@/components/AcordionPortal";
 export default {
   data() {
     return {
+     
       commerce: false,
       page: false,
     };
@@ -92,6 +93,7 @@ export default {
   components: {
     AcordionPortal,
     FootersPortal,
+     
   },
 
   methods: {
@@ -133,7 +135,7 @@ export default {
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid #1f53c5;
+  border: 1px solid rebeccapurple;
   font-family: "calibri";
   font-size: 18px;
   color: white;
@@ -158,7 +160,7 @@ export default {
 
 .form-register .botons {
   width: 100%;
-  background: #1f53c5;
+  background: rebeccapurple;
   border: none;
   padding: 12px;
   color: white;
