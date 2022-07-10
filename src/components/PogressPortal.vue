@@ -26,6 +26,7 @@
           :striped="striped"
           :max="max"
           show-progress
+           variant="dark"
           class="mb-3"
         ></b-progress>
       </div>
@@ -33,6 +34,7 @@
         <h6>CSS</h6>
         <b-progress
           :value="value"
+           variant="dark"
           :striped="striped"
           :max="max"
           show-progress
@@ -43,6 +45,7 @@
         <h6>JS</h6>
         <b-progress
           :striped="striped"
+           variant="dark"
           :value="values"
           :max="max"
           show-progress
@@ -84,6 +87,7 @@
          <a href="#">
         <b-progress
           :value="value"
+           variant="dark"
           :striped="striped"
           :max="max"
           show-progress
@@ -96,6 +100,7 @@
         <h6>BOOTSTRAP</h6>
         <b-progress
           :striped="striped"
+           variant="dark"
           :value="value"
           :max="max"
           show-progress
