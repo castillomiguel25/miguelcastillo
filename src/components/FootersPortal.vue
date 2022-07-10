@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-12 co-md-6 col-lg-6 text-center">
           <h3>Miguel Castillo</h3>
-          <p>Junior Full Stack Developer</p>
+          <p>Frontend Developer</p>
         </div>
         <div class="col-12 col-md-12 col-lg-6 text-center">
           <h3>Contact me</h3>

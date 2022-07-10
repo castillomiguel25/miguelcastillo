@@ -71,28 +71,30 @@
         <h6>VUE.JS</h6>
         <b-progress
           :value="value"
-          variant="success"
+          variant="dark"
           :striped="striped"
           :max="max"
           show-progress
           class="mb-3"
         ></b-progress>
       </div>
+     
       <div class="col-4">
         <h5>GIT</h5>
+         <a href="#">
         <b-progress
           :value="value"
-          variant="success"
           :striped="striped"
           :max="max"
           show-progress
           class="mb-3"
         ></b-progress>
+      </a>
+        
       </div>
       <div class="col-4">
         <h6>BOOTSTRAP</h6>
         <b-progress
-          variant="success"
           :striped="striped"
           :value="value"
           :max="max"
@@ -122,7 +124,7 @@
         <h6>SASS</h6>
         <b-progress
           :value="value"
-          variant="success"
+          variant="dark"
           :striped="striped"
           :max="max"
           show-progress
@@ -133,7 +135,7 @@
         <h6>WORDPRESS</h6>
         <b-progress
           :value="value"
-          variant="success"
+          variant="dark"
           :striped="striped"
           :max="max"
           show-progress
@@ -144,7 +146,7 @@
         <h6>MONGOLDB</h6>
         <b-progress
           :value="value"
-          variant="success"
+          variant="dark"
           :striped="striped"
           :max="max"
           show-progress
@@ -170,7 +172,7 @@
         <h6>NUXT.JS</h6>
         <b-progress
           :value="value"
-          variant="success"
+          variant="dark"
           :striped="striped"
           :max="max"
           show-progress
@@ -181,7 +183,7 @@
         <h6>FIREBASE</h6>
         <b-progress
           :value="value"
-          variant="success"
+          variant="dark"
           :striped="striped"
           :max="max"
           show-progress
@@ -192,7 +194,7 @@
         <h6>REACT.JS</h6>
         <b-progress
           :value="value"
-          variant="success"
+          variant="dark"
           :striped="striped"
           :max="max"
           show-progress
@@ -219,6 +221,9 @@ export default {
 };
 </script>
 <style scoped>
+a{
+  background: rebeccapurple;
+}
 @media only screen and (max-width: 667px) {
 
 }

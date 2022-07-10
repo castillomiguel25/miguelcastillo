@@ -52,7 +52,6 @@
     </main>
   </div>
 </template>
-
 <script>
 import LoaderVi from "@/components/LoaderVi";
 export default {
@@ -61,10 +60,10 @@ export default {
   },
 
   mounted() {
-   var vm = this;
-   setTimeout(function(){
-     vm.isLoading = false;
-   }, 1000);
+    var vm = this;
+    setTimeout(function () {
+      vm.isLoading = false;
+    }, 1000);
   },
 
   data() {
@@ -102,8 +101,7 @@ a {
   color: white;
 }
 
-.a{
+.a {
   background: rebeccapurple;
-  
 }
 </style>

@@ -1,13 +1,11 @@
-<template
- >
+<template>
   <div class="container">
     <div class="row">
-      <div class="col text-center mt-5 mb-5">
-        <h3>Contact</h3>
-      </div>
-    </div>
-    <div class="row animate__animated animate__wobble animate__delay3s">
-      <div id="form" class="col-6 text-center">
+        <div class="col-12 text-center mt-5">
+           <h3>Contact</h3>
+        </div>
+       <div class=" form-register text-center">
+        <h4>Registration Form</h4>
         <form
           id="contactForm"
           class="contact-form"
@@ -16,112 +14,63 @@
           target="_blank"
         >
           <input
-            type="hidden"
-            value="Contact Form"
-            name="subject"
-            id="subject"
+            class="controls"
+            type="text"
+            name="nombres"
+            id="nombres"
+            placeholder="Enter your Name"
           />
-          <div
-            class="contact-form-success alert alert-success d-none"
-            id="contactSuccess"
-          >
-            Mensaje enviado.
-          </div>
+          <input
+            class="controls"
+            type="text"
+            name="apellidos"
+            id="apellidos"
+            placeholder="Enter your Last Name"
+          />
+          <input
+            class="controls"
+            type="email"
+            name="correo"
+            id="correo"
+            placeholder="Enter your email"
+          />
+          <input
+            class="controls"
+            type="textarea"
+            name="correo"
+            id="correo"
+            placeholder="write us a message"
+          />
 
-          <div
-            class="contact-form-error alert alert-danger d-none"
-            id="contactError"
-          >
-            mensaje enviado.
-            <span></span>
-          </div>
-          <div class="form-row">
-            <div class="form-group col-lg-6 col-md-12 col-12 pr-lg-2">
-              <input
-                type="text"
-                value=""
-                data-msg-required="Please enter your name."
-                maxlength="100"
-                class="form-control py-2"
-                placeholder="enter your name..."
-                name="name"
-                id="name"
-                required
-              />
-            </div>
-
-            <div class="form-group col-lg-6 pl-lg-2">
-              <input
-                type="text"
-                value=""
-                data-msg-required="Please enter your phone number."
-                maxlength="100"
-                class="form-control py-2"
-                placeholder="enter your phone number..."
-                name="phone"
-                id="phone"
-                required
-              />
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group col">
-              <textarea
-                maxlength="5000"
-                data-msg-required="Please enter your message."
-                rows="4"
-                class="form-control"
-                placeholder="enter your message..."
-                name="message"
-                id="message"
-                required
-              ></textarea>
-            </div>
-          </div>
-          <div class="form-row text-center">
-            <div class="form-group col">
-              <b-button
-                variant="outline-light"
-                shift-v="8"
-                type="submit"
-                value="ENVIAR"
-               
-                data-loading-text="cargando..."
-              >
-                <b-icon icon="inbox-fill"></b-icon> Send
-              </b-button>
-            </div>
-          </div>
+          <input class="botons" type="submit" value="send Message" />
+         
         </form>
       </div>
     </div>
+     
+
+    
 
     <div class="row">
       <div class="col-12 text-center mb-3 mt-5">
         <h3>Request Service</h3>
       </div>
       <div class="col-12 text-center mb-3 mt-3">
-      If you need a website according to your needs, do not hesitate to consult. <br>
-      Scalable products and woocommerce online stores at the best price.
+        If you need a website according to your needs, do not hesitate to
+        consult. <br />
+        Scalable products and woocommerce online stores at the best price.
       </div>
     </div>
-  
 
     <acordion-portal />
-
 
     <div class="row mb-3 mt-5">
       <div class="col text-center">
         <router-link to="/">
-          <b-button
-                variant="outline-light"
-                shift-v="8"
-               
-              >
-             Back to Main Menu
+          <b-button variant="outline-light" shift-v="8">
+            Back to Main Menu
           </b-button>
-         </router-link>
+        </router-link>
       </div>
     </div>
 
@@ -142,8 +91,7 @@ export default {
 
   components: {
     AcordionPortal,
-    FootersPortal
-
+    FootersPortal,
   },
 
   methods: {
@@ -162,6 +110,61 @@ export default {
 <style scoped>
 
 
+.form-register {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 13px #f4f4f4;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
 
 #form {
   padding: 20px;
@@ -171,7 +174,7 @@ export default {
   height: 350px;
 }
 
-#b{
+#b {
   border-radius: 10%;
 }
 </style>
