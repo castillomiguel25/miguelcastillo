@@ -7,7 +7,7 @@
     <div class="accordion" role="tablist">
       <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
-          <b-button block v-b-toggle.accordion-1 variant="primary"
+          <b-button block v-b-toggle.accordion-1 
             >virtual shops</b-button
           >
         </b-card-header>
@@ -106,7 +106,7 @@
 
           <b-card no-body class="mb-1">
         <b-card-header header-tag="header" class="p-1" role="tab">
-          <b-button block v-b-toggle.accordion-2 variant="primary"
+          <b-button block v-b-toggle.accordion-2 
             >Web Site</b-button
           >
         </b-card-header>

@@ -2,7 +2,8 @@
   <div
     id="App"
     v-bind:style="{ background: '#' + fondo, color: '#' + colores }"
-  > <LoaderVi  v-if="isLoading"/>
+  >
+   <!-- <LoaderVi  v-if="isLoading"/> -->
     <main >
       
       <b-navbar v-if="!isLoading" toggleable="lg" type="dark" id="tamaño">
@@ -53,10 +54,10 @@
   </div>
 </template>
 <script>
-import LoaderVi from "@/components/LoaderVi";
+// import LoaderVi from "@/components/LoaderVi";
 export default {
   components: {
-    LoaderVi,
+    // LoaderVi,
   },
 
 
