@@ -20,7 +20,7 @@ const routes = [
   },
 
   {
-    path: "/:pathMath(.*)*",
+    path: "/:pathMath(.*)",
     name: "PageFound",
     component: PageFound,
   },
