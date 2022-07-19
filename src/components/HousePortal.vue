@@ -8,18 +8,24 @@
       >
         <h1>Miguel Castillo</h1>
         <p>Frontend Developer</p>
+         <b-button target="_blank" href="/miguel.pdf" class=" ml-3 mt-3 mr-5 button"
+          >Descargar CV</b-button>
       </div>
-      <div class="col"></div>
+
     </div>
   </div>
 </template>
 <script>
 export default {
+  
   name: "HousePortal",
 };
 </script>
 
 <style scoped>
+.button {
+  background: rebeccapurple;
+}
 h1 {
   color: white;
 }
