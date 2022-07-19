@@ -10,7 +10,7 @@
         <template>
           <div>
             <b-avatar-group size="4rem">
-              <router-link :to="{ name: 'forms-portal' }">
+              <router-link to="/">
                 <b-avatar class="mr-5">
                   <img
                     class="mr-3"

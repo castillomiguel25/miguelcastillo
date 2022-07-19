@@ -41,29 +41,11 @@
             id="correo"
             placeholder="write us a message"
           />
-
           <input class="botons" type="submit" value="send Message" />
-         
         </form>
       </div>
     </div>
      
-
-    
-
-    <div class="row">
-      <div class="col-12 text-center mb-3 mt-5">
-        <h3>Request Service</h3>
-      </div>
-      <div class="col-12 text-center mb-3 mt-3">
-        If you need a website according to your needs, do not hesitate to
-        consult. <br />
-        Scalable products and woocommerce online stores at the best price.
-      </div>
-    </div>
-
-    <acordion-portal />
-
     <div class="row mb-3 mt-5">
       <div class="col text-center">
         <router-link to="/">
@@ -80,7 +62,6 @@
 
 <script>
 import FootersPortal from "@/components/FootersPortal";
-import AcordionPortal from "@/components/AcordionPortal";
 export default {
   data() {
     return {
@@ -91,7 +72,6 @@ export default {
   },
 
   components: {
-    AcordionPortal,
     FootersPortal,
      
   },
@@ -117,7 +97,7 @@ export default {
   background: #24303c;
   padding: 30px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 30px;
   border-radius: 4px;
   font-family: "calibri";
   color: white;

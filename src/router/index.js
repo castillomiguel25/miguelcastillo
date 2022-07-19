@@ -27,9 +27,9 @@ export default new Router({
     
 
     {
-      path: "/:pathMath(.*)",
-    name: "PageFound",
-    component: PageFound,
+      path: '*',
+      name: "PageFound",
+      component: PageFound,
     }
   ]
 })
