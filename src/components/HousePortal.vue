@@ -2,13 +2,13 @@
   <div id="caja" class="container-fluid">
     <div class="row"></div>
 
-    <div class="row mt-5 ml-5">
+    <div class="row mt-5 ">
       <div
-        class="col-4 text-center animate__animated animate__wobble animate__delay2s"
+        class="col-lg-4 col-12 text-center animate__animated animate__wobble animate__delay2s"
       >
         <h1>Miguel Castillo</h1>
         <p>Frontend Developer</p>
-         <b-button target="_blank" href="/miguel.pdf" class=" ml-3 mt-3 mr-5 button"
+         <b-button target="_blank" href="/miguel.pdf" class=" ml-3 mt-3  button"
           >Descargar CV</b-button>
       </div>
 
@@ -35,7 +35,7 @@ p {
 #caja {
   background-image: url(@/components/img/astro.jpg);
   border: 1px solid black;
-  height: 500px;
+  height: 400px;
   box-sizing: padding-box;
 }
 
@@ -43,7 +43,13 @@ p {
 
 @media only screen and (max-width: 667px) {
   #caja {
-    height: 350px;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #caja {
+    height: 290px;
   }
 }
 </style>

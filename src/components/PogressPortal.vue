@@ -83,7 +83,7 @@
       </div>
      
       <div class="col-4">
-        <h5>GIT</h5>
+        <h6>GIT</h6>
          <a href="#">
         <b-progress
           :value="value"
@@ -229,8 +229,10 @@ export default {
 a{
   background: rebeccapurple;
 }
-@media only screen and (max-width: 667px) {
-
+@media only screen and (max-width: 280px) {
+h6{
+  font-size: 13px;
+}
 }
 
 </style>

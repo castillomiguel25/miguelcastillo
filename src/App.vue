@@ -9,8 +9,8 @@
       <b-navbar v-if="!isLoading" toggleable="lg" type="dark" id="tamaño">
         <template>
           <div>
-            <b-avatar-group size="4rem">
-              <router-link to="/">
+            <b-avatar-group size="4rem" class="nav">
+              <router-link class="routes" to="/">
                 <b-avatar class="mr-5">
                   <img
                     class="mr-3"
@@ -23,7 +23,7 @@
                 </b-avatar>
               </router-link>
 
-              <b-avatar class="a mr-5">
+              <b-avatar class="a mr-5 on">
                 <b-icon
                   class="mt-5"
                   shift-v="8"
@@ -95,6 +95,7 @@ export default {
   background: black;
 }
 
+
 #img {
   border-radius: 100%;
 }
@@ -105,5 +106,79 @@ a {
 
 .a {
   background: rebeccapurple;
+}
+
+
+@media only screen and (max-width: 667px) {
+  .nav{
+    transform: translate(55%,0%);
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .nav{
+    transform: translate(35%,0%);
+  }
+}
+
+@media only screen and (max-width: 494px) {
+  .nav{
+    transform: translate(30%,0%);
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .nav{
+    transform: translate(35%,0%);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .nav{
+    transform: translate(23%,0%);
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .nav{
+    transform: translate(16%,0%);
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .nav{
+    transform: translate(13%,0%);
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .nav{
+    transform: translate(10%,0%);
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .nav{
+    transform: translate(35%,0%);
+  }
+   .routes {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 280px) {
+  .routes {
+    display: none;
+  }
+
+   .nav{
+    transform: translate(77%,0%);
+  }
+
+  .on{
+    display: none;
+  }
+
 }
 </style>

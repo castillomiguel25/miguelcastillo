@@ -4,11 +4,8 @@
       <div class="col-12 text-center mt-5 mb-5">
         <h3>Completed Projects</h3>
       </div>
-
-       
-
+      <!-- project one -->
       <div class="col-12 col-md-6 text-center col-lg-3">
-        
         <b-card 
           bg-variant="dark"
           text-variant="light"
@@ -20,8 +17,6 @@
           tag="article"
           class=" mb-5"
         >
-         
-
            <b-button
           href="https://agenciadigitalcreandolo.netlify.app/"
           class="ml-3 mt-3 mr-5"
@@ -31,27 +26,27 @@
         </b-card>
       </div>
 
+          <!-- project 2 -->
       <div class="col-12 col-md-6 text-center col-lg-3">
         <b-card
          img-height="300"
           bg-variant="dark"
           text-variant="light"
-          title="CerrajerosR&E "
-          img-src="@/components/img/cerrajeria.png"
+          title="Moviecastle "
+          img-src="@/components/img/cerrajeria.jpg"
           img-alt="Image"
           img-top
           tag="article"
           class="mb-5"
         >
-            
-         
-
-          <b-button href="http://cerrajerosre.com/" class=" ml-3 mt-3 mr-5"
+          <b-button href="https://castillomiguel25.github.io/api-rest-javascript-movie/" class=" ml-3 mt-3 mr-5"
           >View</b-button
         >
-        <b-button href="#" class="button mt-3" > Code</b-button>
+        <b-button href="https://github.com/castillomiguel25/api-rest-javascript-movie" class="button mt-3" > Code</b-button>
         </b-card>
       </div>
+
+       <!-- project 3 -->
 
       <div class="col-12 col-md-6 text-center col-lg-3">
         <b-card
@@ -65,14 +60,15 @@
           tag="article"
           class="mb-5"
         >
-          
-
         <b-button href="https://layetanaproductions.com/" class=" ml-3 mt-3 mr-5"
           >View</b-button
         >
         <b-button href="#" class="button mt-3" > Code</b-button>
         </b-card>
       </div>
+
+       <!-- project 4 -->
+
       <div class="col-12 col-md-6 text-center col-lg-3">
         <b-card
          img-height="300"
@@ -85,14 +81,15 @@
           tag="article"
           class="mb-5"
         >
-         
-
             <b-button href="https://tuexchangecrypto.netlify.app/" class=" ml-3 mt-3 mr-5"
           >View</b-button
         >
         <b-button href="https://github.com/castillomiguel25/Exchange-platzi" class="button mt-3" > Code</b-button>
         </b-card>
       </div>
+
+       <!-- project 5 -->
+
        <div class="col-12 col-md-6 text-center col-lg-3">
         <b-card
          img-height="300"
@@ -105,14 +102,14 @@
           tag="article"
           class="mb-5"
         >
-         
-
             <b-button href="#" class="ml-3 mt-3 mr-5"
           >View</b-button
         >
         <b-button href="https://github.com/castillomiguel25/clon-de-trello" class="button mt-3" > Code</b-button>
         </b-card>
       </div>
+
+         <!-- project 6 -->
 
       <div class="col-12 col-md-6 text-center col-lg-3 cardss">
         <b-card
