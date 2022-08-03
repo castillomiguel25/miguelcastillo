@@ -9,8 +9,8 @@
         <b-card 
           bg-variant="dark"
           text-variant="light"
-          title="Agencia Digital"
-          img-src="@/components/img/agencia-one.png"
+          title="React-shop"
+          img-src="@/components/img/react.png"
           img-alt="Image"
           img-height="300"
           img-top
@@ -18,11 +18,11 @@
           class=" mb-5"
         >
            <b-button
-          href="https://agenciadigitalcreandolo.netlify.app/"
+          href="https://shop-online-template.netlify.app/"
           class="ml-3 mt-3 mr-5"
           >View</b-button
         >
-        <b-button  href="https://github.com/castillomiguel25/agencydigital" class="button mt-3" > Code</b-button>
+        <b-button  href="https://github.com/castillomiguel25/react.js-shop/" class="button mt-3" > Code</b-button>
         </b-card>
       </div>
 
