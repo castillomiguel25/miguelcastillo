@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HomeView from "@/views/HomeView.vue";
 import FormsPortal from "@/components/FormsPortal.vue";
 import PageFound from "@/components/PageFound.vue"
+import ConvertedView from "@/views/ConvertedView.vue"
 
 
 
@@ -23,13 +24,15 @@ export default new Router({
       name: "forms-portal",
       component: FormsPortal,
     },
-
-    
-
     {
       path: '*',
       name: "PageFound",
       component: PageFound,
+    },
+    {
+      path: '/Convertidor-pdf',
+      name: "convertidor",
+      component: ConvertedView,
     }
   ]
 })

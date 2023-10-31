@@ -40,7 +40,7 @@ export default {
           link: '#',
           image: require('./img/react-2.svg'),
           alt: 'React-icono-svg',
-          title: 'Ejemplo 2',
+          title: 'REACT.JS',
           date: 'Junio 2021',
         },
         {
@@ -48,7 +48,7 @@ export default {
           link: '#',
           image: require('./img/vue-9.svg'),
           alt: 'Vue-icono-svg',
-          title: 'Ejemplo 3',
+          title: 'VUE.JS',
           date: 'Marzo 2021',
         },
         {
