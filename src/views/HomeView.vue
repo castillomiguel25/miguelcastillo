@@ -1,35 +1,25 @@
 <template>
   <div>
-  
-    <house-portal  />
-    <home-portal  />
-    <pogress-portal  />
-    <projecto-portal  />
-
+    <house-portal />
+    <projects-portal />
+    <skills-portyal />
     <footers-portal />
   </div>
 </template>
 
 <script>
-import HousePortal from "@/components/HousePortal";
-import HomePortal from "@/components/HomePortal";
-import PogressPortal from "@/components/PogressPortal";
-import ProjectoPortal from "@/components/ProjectoPortal";
-
+import HousePortal from "@/components/HousePortal.vue"
+import ProjectsPortal from "@/components/ProjectsPortal.vue";
 import FootersPortal from "@/components/FootersPortal";
+import SkillsPortyal from '@/components/SkillsPortyal.vue';
 
 export default {
-
-
-  
   name: "HomeView",
   components: {
     HousePortal,
-    HomePortal,
-    PogressPortal,
-    ProjectoPortal,
     FootersPortal,
-   
+    ProjectsPortal,
+    SkillsPortyal
   },
 };
 </script>
