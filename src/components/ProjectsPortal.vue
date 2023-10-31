@@ -14,9 +14,8 @@
               <div class="text-xl text-gray-400 font-semibold text-gray-400">projecto 1</div></a
             >
             <div class="ml-3 flex gap-2">
-                <div class="rounded-md px-2 py-1 text-xs font-semibold bg-fuchsia-400 text-fuchsia-900">REACT.JS</div>
+                <div class="rounded-md px-2 py-1 text-xs font-semibold bg-fuchsia-400 text-fuchsia-900">Vue.JS</div>
                 <div class="rounded-md px-2 py-1 text-xs font-semibold bg-red-400 text-fuchsia-900">TAILWIND.CSS</div>
-                <div class="rounded-md px-2 py-1 text-xs font-semibold bg-blue-400 text-fuchsia-900">FIREBASE</div>
             </div>
           </div>
           <p class="mt-3 text-gray-400">
