@@ -59,7 +59,7 @@
             <li class="nav-item">
               <a
                 class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
-                href="/miguel.pdf"
+                href="/cv-miguel.pdf"
                 target="_blank"
               >
                 <i
