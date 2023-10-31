@@ -22,7 +22,7 @@
             MigDev
           </a>
           <button
-            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-black rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
             v-on:click="toggleNavbar()"
           >

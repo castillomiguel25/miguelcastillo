@@ -9,10 +9,10 @@
       contigo.
     </p>
     <div class="flex gap-1">
-      <a class="h-12 w-12 hover:translate-y-1" href="#"
+      <a class="h-12 w-12 hover:translate-y-1" target="_blank" href="https://www.facebook.com/miguelangel.castillocolmenares.54"
         ><img src="../assets/facebook-icon.png" alt="facebook-icons"
       /></a>
-      <a class="h-12 w-12 hover:translate-y-1" href="#"
+      <a class="h-12 w-12 hover:translate-y-1" target="_blank" href="https://www.linkedin.com/in/miguel-angel-castillo-colmenares/"
         ><img src="../assets/linkedin-icon.png" alt="linkedin-icons"
       /></a>
     </div>
