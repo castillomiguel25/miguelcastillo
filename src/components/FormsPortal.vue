@@ -2,7 +2,7 @@
   <div class="centered-container">
     <div>
       <div class="col-span-2 md:col-span-1 p-4 border border-gray-300 rounded text-center">
-        <h4 class="text-lg font-bold mb-4">Registration Form</h4>
+        <h4 class="text-lg font-bold mb-4">Contactame</h4>
         <form
           id="contactForm"
           class="contact-form"
@@ -15,32 +15,32 @@
             type="text"
             name="nombres"
             id="nombres"
-            placeholder="Enter your Name"
+            placeholder="Escribe tu nombre"
           />
           <input
             class="input-field mb-4"
             type="text"
             name="apellidos"
             id="apellidos"
-            placeholder="Enter your Last Name"
+            placeholder="Escribe tu apellido"
           />
           <input
             class="input-field mb-4"
             type="email"
             name="correo"
             id="correo"
-            placeholder="Enter your email"
+            placeholder="Escribe tu email"
           />
           <textarea
             class="input-field mb-4"
             name="mensaje"
             id="mensaje"
-            placeholder="Write us a message"
+            placeholder="Escribe tu mensaje"
           ></textarea>
           <input
             class="submit-button"
             type="submit"
-            value="Send Message"
+            value="Enviar mensaje"
           />
         </form>
       </div>
