@@ -21,9 +21,12 @@
           >
             MigDev
           </a>
-          <button type="button"
-            v-on:click="toggleNavbar()" class="lg:hidden cursor-pointer bg-black text-white p-3 rounded-md">
-            <i class="fas fa-bars"></i> <!-- Icono del menú (usando FontAwesome) -->
+          <button
+            type="button"
+            v-on:click="toggleNavbar()"
+            class="lg:hidden cursor-pointer bg-black text-white p-3 rounded-md"
+          >
+            <i class="fas fa-bars"></i>
           </button>
         </div>
         <div
@@ -45,10 +48,9 @@
                 class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
                 href="#"
               >
-                <i class="fab fa-twitter text-lg leading-lg opacity-75" /><span
-                  class="ml-2"
-                  >{{ on ? "Modo Claro" : "Modo Oscuro" }}</span
-                >
+                <span class="ml-2">{{
+                  on ? "Modo Claro" : "Modo Oscuro"
+                }}</span>
               </a>
             </li>
             <li class="nav-item">
@@ -57,9 +59,7 @@
                 href="/cv-miguel.pdf"
                 target="_blank"
               >
-                <i
-                  class="fab fa-pinterest text-lg leading-lg opacity-75"
-                /><span class="ml-2">Descargar CV</span>
+                <span class="ml-2">Descargar CV</span>
               </a>
             </li>
           </ul>
