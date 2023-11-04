@@ -21,12 +21,9 @@
           >
             MigDev
           </a>
-          <button
-            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-black rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-            type="button"
-            v-on:click="toggleNavbar()"
-          >
-            <i class="fas fa-bars"></i>
+          <button type="button"
+            v-on:click="toggleNavbar()" class="lg:hidden cursor-pointer bg-black text-white p-3 rounded-md">
+            <i class="fas fa-bars"></i> <!-- Icono del menú (usando FontAwesome) -->
           </button>
         </div>
         <div
@@ -41,7 +38,7 @@
               >
                 <i
                   class="fab fa-facebook-square text-lg leading-lg opacity-75"
-                /><span class="ml-2">Formulario</span>
+                /><span class="ml-2">Contactame</span>
               </a>
             </li>
             <li class="nav-item">
@@ -65,16 +62,6 @@
                 <i
                   class="fab fa-pinterest text-lg leading-lg opacity-75"
                 /><span class="ml-2">Descargar CV</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
-                href="/Convertidor-pdf"
-              >
-                <i
-                  class="fab fa-facebook-square text-lg leading-lg opacity-75"
-                /><span class="ml-2">Convertidor</span>
               </a>
             </li>
           </ul>
