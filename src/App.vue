@@ -36,9 +36,7 @@
                 class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
                 href="/forms"
               >
-                <i
-                  class="fab fa-facebook-square text-lg leading-lg opacity-75"
-                /><span class="ml-2">Contactame</span>
+                <span class="ml-2">Contactame</span>
               </a>
             </li>
             <li class="nav-item">
