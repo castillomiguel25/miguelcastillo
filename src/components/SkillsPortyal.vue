@@ -7,8 +7,8 @@
       <div v-for="skill in skills" :key="skill.id">
         <a class="hover:translate-y-1" :href="skill.link">
           <div class="overflow-hidden rounded-md bg-slate-800">
-            <div class="aspect-w-3 aspect-h-2">
-              <img :src="skill.image" :alt="skill.alt" class="h-40 w-54 object-cover object-center mx-auto">
+            <div class="">
+              <img :src="skill.image" :alt="skill.alt" class="h-12 w-12 mt-3 object-center mx-auto">
             </div>
             <div class="px-3 pt-4 pb-6 text-center">
               <h2 class="text-xl font-semibold text-gray-400">{{ skill.title }}</h2>
