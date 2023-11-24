@@ -34,12 +34,26 @@
           class="lg:flex lg:flex-grow items-center"
         >
           <ul class="flex flex-col lg:flex-row list-none ml-auto">
-            <li class="nav-item">
-              <a
-                class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
-                href="/forms"
-              >
-                <span class="ml-2">Contactame</span>
+            <li class="mr-3">
+              <a class="mt-2" href="#">
+                <button @click="changeLanguage('es')">
+                  <img
+                    class="w-8 object-cover h-8 rounded-full border border-gray-300"
+                    src="./assets/spain.webp"
+                    alt="bandera españa"
+                  />
+                </button>
+              </a>
+            </li>
+            <li class="mr-3">
+              <a class="mt-2" href="#">
+                <button @click="changeLanguage('en')">
+                  <img
+                    class="w-8 object-cover h-8 rounded-full border border-gray-300"
+                    src="./assets/usa.jpg"
+                    alt="bandera usa"
+                  />
+                </button>
               </a>
             </li>
             <li class="nav-item">
@@ -49,7 +63,7 @@
                 href="#"
               >
                 <span class="ml-2">{{
-                  on ? "Modo Claro" : "Modo Oscuro"
+                  on ? $t("message.ModeClear") : $t("message.ModeDark")
                 }}</span>
               </a>
             </li>
@@ -59,21 +73,34 @@
                 href="/cv-miguel.pdf"
                 target="_blank"
               >
-                <span class="ml-2">Descargar CV</span>
+                <span class="ml-2">{{ $t("message.download") }}</span>
               </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <router-view v-if="!isLoading" />
+    <HomeView v-if="!isLoading" />
   </div>
 </template>
 <script>
 import LoaderVi from "@/components/LoaderVi";
+import HomeView from "./views/HomeView.vue";
+import { meta } from 'vue-meta';
 export default {
+  name: 'App',
+  metaInfo: {
+    title: 'Miguel Angel Castillo Colmenares - Portafolio web',
+    meta: [
+      {
+        name: 'description',
+        content: 'Miguel Angel Castillo Colmenares Frontend Developer'
+      },
+    ],
+  },
   components: {
     LoaderVi,
+    HomeView,
   },
   data() {
     return {
@@ -98,6 +125,9 @@ export default {
     },
     toggleNavbar: function () {
       this.showMenu = !this.showMenu;
+    },
+    changeLanguage(locale) {
+      this.$i18n.locale = locale;
     },
   },
   name: "App",

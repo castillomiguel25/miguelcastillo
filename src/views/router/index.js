@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HomeView from "@/views/HomeView.vue";
+// import HomeView from "@/views/HomeView.vue";
 import FormsPortal from "@/components/FormsPortal.vue";
 import PageFound from "@/components/PageFound.vue"
 import ConvertedView from "@/views/ConvertedView.vue"
@@ -13,11 +13,11 @@ export default new Router({
   mode: 'history',
 
   routes: [
-    {
-      path: "/",
-      name: "Home-view",
-      component: HomeView,
-    },
+    // {
+    //   path: "/",
+    //   name: "Home-view",
+    //   component: HomeView,
+    // },
 
     {
       path: "/forms",
