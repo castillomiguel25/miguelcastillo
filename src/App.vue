@@ -86,17 +86,14 @@
 <script>
 import LoaderVi from "@/components/LoaderVi";
 import HomeView from "./views/HomeView.vue";
-import { meta } from 'vue-meta';
+
 export default {
-  name: 'App',
+  name: "App",
   metaInfo: {
-    title: 'Miguel Angel Castillo Colmenares - Portafolio web',
-    meta: [
-      {
-        name: 'description',
-        content: 'Miguel Angel Castillo Colmenares Frontend Developer'
-      },
-    ],
+    meta: [{
+    name: 'description',
+    content: "Miguel Angel Castillo Colmenares Frontend Developer",
+  }]
   },
   components: {
     LoaderVi,
@@ -130,7 +127,6 @@ export default {
       this.$i18n.locale = locale;
     },
   },
-  name: "App",
 };
 </script>
 <style></style>
