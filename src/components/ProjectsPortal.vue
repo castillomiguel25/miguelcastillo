@@ -1,7 +1,8 @@
 <template>
   <div class="mx-auto max-w-screen-lg px-3 py-6">
     <p class="text-2xl mb-5">
-      {{ $t('message.project') }} <span class="text-red-400">{{ $t('message.Recientes') }}</span>
+      {{ $t("message.project") }}
+      <span class="text-red-400">{{ $t("message.Recientes") }}</span>
     </p>
     <div class="flex flex-col gap-6 py-5">
       <div
@@ -16,7 +17,12 @@
               href="https://tuexchangecrypto.netlify.app/"
             >
               <div class="text-xl text-gray-400 font-semibold text-gray-400">
-                ⛓️Exchange
+                <button
+                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                >
+                  ⛓️ {{ $t("message.Visitar") }}
+                </button>
+                Exchange
               </div></a
             >
             <div class="ml-3 flex gap-2">
@@ -33,7 +39,7 @@
             </div>
           </div>
           <p class="mt-3 text-gray-400">
-            Exchange : {{ $t('message.Exchange') }}
+            Exchange : {{ $t("message.Exchange") }}
           </p>
         </div>
       </div>
@@ -52,7 +58,11 @@
               href="https://managemoneycash.netlify.app/"
             >
               <div class="text-xl font-semibold text-gray-400">
-                ⛓️ManageMoney
+                <button
+                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                >
+                 {{ $t("message.Visitar") }}
+                </button> ManageMoney
               </div></a
             >
             <div class="ml-3 flex gap-2">
@@ -75,8 +85,7 @@
             </div>
           </div>
           <p class="mt-3 text-gray-400">
-            ManageMoney: {{ $t('message.Manage') }}
-
+            ManageMoney: {{ $t("message.Manage") }}
           </p>
         </div>
       </div>
@@ -95,7 +104,11 @@
               href="https://castillomiguel25.github.io/api-rest-javascript-movie/"
             >
               <div class="text-xl font-semibold text-gray-400">
-                ⛓️TheMovie
+                <button
+                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                >
+                  ⛓️ {{ $t("message.Visitar") }}
+                </button> TheMovie
               </div></a
             >
             <div class="ml-3 flex gap-2">
@@ -111,9 +124,7 @@
               </div>
             </div>
           </div>
-          <p class="mt-3 text-gray-400">
-            TheMovie: {{ $t('message.movie') }}
-          </p>
+          <p class="mt-3 text-gray-400">TheMovie: {{ $t("message.movie") }}</p>
         </div>
       </div>
     </div>
@@ -131,7 +142,11 @@
               href="https://serviciosdigitales.netlify.app/"
             >
               <div class="text-xl font-semibold text-gray-400">
-                ⛓️Servicios Digitales
+                <button
+                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                >
+                  ⛓️ {{ $t("message.Visitar") }}
+                </button>  Servicios Digitales
               </div></a
             >
             <div class="ml-3 flex gap-2">
@@ -153,7 +168,7 @@
             </div>
           </div>
           <p class="mt-3 text-gray-400">
-            TheMovie: {{ $t('message.services') }}
+            TheMovie: {{ $t("message.services") }}
           </p>
         </div>
       </div>
@@ -172,7 +187,11 @@
               href="https://www.cerrajerosre.com/"
             >
               <div class="text-xl font-semibold text-gray-400">
-                ⛓️Cerrajeros R&E
+                <button
+                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                >
+                  ⛓️ {{ $t("message.Visitar") }}
+                </button> Cerrajeros R&E
               </div></a
             >
             <div class="ml-3 flex gap-2">
@@ -194,7 +213,7 @@
             </div>
           </div>
           <p class="mt-3 text-gray-400">
-            {{ $t('message.web') }}
+            {{ $t("message.web") }}
           </p>
         </div>
       </div>
@@ -207,13 +226,13 @@
         <div class="shrink-0 text-3xl">💎</div>
         <div>
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
-            <a
-              target="_blank"
-              class="hover:text-cyan-400"
-              href="#"
-            >
+            <a target="_blank" class="hover:text-cyan-400" href="#">
               <div class="text-xl font-semibold text-gray-400">
-                ⛓️CodeMaster
+                <button
+                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                >
+                  ⛓️ {{ $t("message.Visitar") }}
+                </button> CodeMaster
               </div></a
             >
             <div class="ml-3 flex gap-2">
@@ -235,7 +254,47 @@
             </div>
           </div>
           <p class="mt-3 text-gray-400">
-            {{ $t('message.CodeMaster') }}
+            {{ $t("message.CodeMaster") }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-6 py-5">
+      <div
+        class="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row"
+      >
+        <div class="shrink-0 text-3xl">💎</div>
+        <div>
+          <div class="flex flex-col items-center gap-y-2 md:flex-row">
+            <a
+              target="_blank"
+              class="hover:text-cyan-400"
+              href="https://genera-tu-codigo-qr.netlify.app/"
+            >
+              <div class="text-xl font-semibold text-gray-400">
+                <button
+                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                >
+                  ⛓️ {{ $t("message.Visitar") }}
+                </button> Generador de codigo QR
+              </div></a
+            >
+            <div class="ml-3 flex gap-2">
+              <div
+                class="rounded-md px-2 py-1 text-xs font-semibold bg-red-400 text-white"
+              >
+                Tailwind
+              </div>
+              <div
+                class="rounded-md px-2 py-1 text-xs font-semibold bg-yellow-600 text-white"
+              >
+                Javascript
+              </div>
+            </div>
+          </div>
+          <p class="mt-3 text-gray-400">
+            {{ $t("message.QR") }}
           </p>
         </div>
       </div>

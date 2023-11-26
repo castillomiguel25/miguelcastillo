@@ -20,7 +20,9 @@ export default {
     June: 'Junio',
     March: 'marzo',
     January: 'Enero',
-    CodeMaster: 'Proyecto  personal realizado para ayudar a los programadores del lenguaje Javascript a practicar ejercicios, conocer sus limitaciones en cuanto a conceptos y realizacion de ejercicios  de entrevistas.'
+    CodeMaster: 'Proyecto  personal realizado para ayudar a los programadores del lenguaje Javascript a practicar ejercicios, conocer sus limitaciones en cuanto a conceptos y realizacion de ejercicios  de entrevistas.',
+    QR: 'Herramienta web para Generar codigo QR',
+    Visitar: 'Visitar',
   }
 }
 
