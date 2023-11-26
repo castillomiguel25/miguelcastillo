@@ -18,7 +18,7 @@
             >
               <div class="text-xl text-gray-400 font-semibold text-gray-400">
                 <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
                 >
                   ⛓️ {{ $t("message.Visitar") }}
                 </button>
@@ -59,7 +59,7 @@
             >
               <div class="text-xl font-semibold text-gray-400">
                 <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
                 >
                 ⛓️ {{ $t("message.Visitar") }}
                 </button> ManageMoney
@@ -105,7 +105,7 @@
             >
               <div class="text-xl font-semibold text-gray-400">
                 <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
                 >
                   ⛓️ {{ $t("message.Visitar") }}
                 </button> TheMovie
@@ -143,7 +143,7 @@
             >
               <div class="text-xl font-semibold text-gray-400">
                 <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
                 >
                   ⛓️ {{ $t("message.Visitar") }}
                 </button>  Servicios Digitales
@@ -188,7 +188,7 @@
             >
               <div class="text-xl font-semibold text-gray-400">
                 <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
                 >
                   ⛓️ {{ $t("message.Visitar") }}
                 </button> Cerrajeros R&E
@@ -229,7 +229,7 @@
             <a target="_blank" class="hover:text-cyan-400" href="#">
               <div class="text-xl font-semibold text-gray-400">
                 <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
                 >
                   ⛓️ {{ $t("message.Visitar") }}
                 </button> CodeMaster
@@ -274,7 +274,7 @@
             >
               <div class="text-xl font-semibold text-gray-400">
                 <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4"
+                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
                 >
                   ⛓️ {{ $t("message.Visitar") }}
                 </button> Generador de codigo QR
