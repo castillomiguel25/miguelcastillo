@@ -61,7 +61,7 @@
                 <button
                   class="rounded-full text-black bg-white text-lg py-1 px-4"
                 >
-                 {{ $t("message.Visitar") }}
+                ⛓️ {{ $t("message.Visitar") }}
                 </button> ManageMoney
               </div></a
             >
