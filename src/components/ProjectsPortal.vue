@@ -16,12 +16,10 @@
               class="hover:text-cyan-400"
               href="https://tuexchangecrypto.netlify.app/"
             >
-              <div class="text-xl text-gray-400 font-semibold text-gray-400">
-                <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
-                >
-                  ⛓️ {{ $t("message.Visitar") }}
-                </button>
+              <div
+                class="text-xl text-gray-400 font-semibold text-gray-400 flex"
+              >
+                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
                 Exchange
               </div></a
             >
@@ -57,12 +55,9 @@
               class="hover:text-cyan-400"
               href="https://managemoneycash.netlify.app/"
             >
-              <div class="text-xl font-semibold text-gray-400">
-                <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
-                >
-                ⛓️ {{ $t("message.Visitar") }}
-                </button> ManageMoney
+              <div class="text-xl font-semibold text-gray-400 flex">
+                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+                ManageMoney
               </div></a
             >
             <div class="ml-3 flex gap-2">
@@ -103,12 +98,9 @@
               class="hover:text-cyan-400"
               href="https://castillomiguel25.github.io/api-rest-javascript-movie/"
             >
-              <div class="text-xl font-semibold text-gray-400">
-                <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
-                >
-                  ⛓️ {{ $t("message.Visitar") }}
-                </button> TheMovie
+              <div class="text-xl font-semibold text-gray-400 flex">
+                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+                TheMovie
               </div></a
             >
             <div class="ml-3 flex gap-2">
@@ -141,12 +133,9 @@
               class="hover:text-cyan-400"
               href="https://serviciosdigitales.netlify.app/"
             >
-              <div class="text-xl font-semibold text-gray-400">
-                <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
-                >
-                  ⛓️ {{ $t("message.Visitar") }}
-                </button>  Servicios Digitales
+              <div class="text-xl font-semibold text-gray-400 flex">
+                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+                Servicios Digitales
               </div></a
             >
             <div class="ml-3 flex gap-2">
@@ -186,12 +175,9 @@
               class="hover:text-cyan-400"
               href="https://www.cerrajerosre.com/"
             >
-              <div class="text-xl font-semibold text-gray-400">
-                <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
-                >
-                  ⛓️ {{ $t("message.Visitar") }}
-                </button> Cerrajeros R&E
+              <div class="text-xl font-semibold text-gray-400 flex">
+                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+                Cerrajeros R&E
               </div></a
             >
             <div class="ml-3 flex gap-2">
@@ -228,11 +214,8 @@
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
             <a target="_blank" class="hover:text-cyan-400" href="#">
               <div class="text-xl font-semibold text-gray-400">
-                <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
-                >
-                  ⛓️ {{ $t("message.Visitar") }}
-                </button> CodeMaster
+                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+                CodeMaster
               </div></a
             >
             <div class="ml-3 flex gap-2">
@@ -273,11 +256,8 @@
               href="https://genera-tu-codigo-qr.netlify.app/"
             >
               <div class="text-xl font-semibold text-gray-400">
-                <button
-                  class="rounded-full text-black bg-white text-lg py-1 px-4 mr-5"
-                >
-                  ⛓️ {{ $t("message.Visitar") }}
-                </button> Generador de codigo QR
+                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+                Generador de codigo QR
               </div></a
             >
             <div class="ml-3 flex gap-2">
