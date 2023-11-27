@@ -255,7 +255,7 @@
               class="hover:text-cyan-400"
               href="https://genera-tu-codigo-qr.netlify.app/"
             >
-              <div class="text-xl font-semibold text-gray-400">
+              <div class="text-xl font-semibold text-gray-400 flex">
                 <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
                 Generador de codigo QR
               </div></a
