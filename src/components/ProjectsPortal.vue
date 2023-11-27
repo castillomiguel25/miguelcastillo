@@ -17,9 +17,9 @@
               href="https://tuexchangecrypto.netlify.app/"
             >
               <div
-                class="text-xl text-gray-400 font-semibold text-gray-400 flex"
+                class="text-lg text-gray-400 font-semibold text-gray-400 flex"
               >
-                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+                <p class="text-blue-300 mr-3"> {{ $t("message.Visitar") }}</p>
                 Exchange
               </div></a
             >
@@ -55,8 +55,8 @@
               class="hover:text-cyan-400"
               href="https://managemoneycash.netlify.app/"
             >
-              <div class="text-xl font-semibold text-gray-400 flex">
-                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+              <div class="text-lg font-semibold text-gray-400 flex">
+                <p class="text-blue-300 mr-3"> {{ $t("message.Visitar") }}</p>
                 ManageMoney
               </div></a
             >
@@ -98,8 +98,8 @@
               class="hover:text-cyan-400"
               href="https://castillomiguel25.github.io/api-rest-javascript-movie/"
             >
-              <div class="text-xl font-semibold text-gray-400 flex">
-                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+              <div class="text-lg font-semibold text-gray-400 flex">
+                <p class="text-blue-300 mr-3"> {{ $t("message.Visitar") }}</p>
                 TheMovie
               </div></a
             >
@@ -133,8 +133,8 @@
               class="hover:text-cyan-400"
               href="https://serviciosdigitales.netlify.app/"
             >
-              <div class="text-xl font-semibold text-gray-400 flex">
-                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+              <div class="text-lg font-semibold text-gray-400 flex">
+                <p class="text-blue-300 mr-3"> {{ $t("message.Visitar") }}</p>
                 Servicios Digitales
               </div></a
             >
@@ -175,8 +175,8 @@
               class="hover:text-cyan-400"
               href="https://www.cerrajerosre.com/"
             >
-              <div class="text-xl font-semibold text-gray-400 flex">
-                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+              <div class="text-lg font-semibold text-gray-400 flex">
+                <p class="text-blue-300 mr-3"> {{ $t("message.Visitar") }}</p>
                 Cerrajeros R&E
               </div></a
             >
@@ -213,8 +213,8 @@
         <div>
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
             <a target="_blank" class="hover:text-cyan-400" href="#">
-              <div class="text-xl font-semibold text-gray-400 flex">
-                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+              <div class="text-lg font-semibold text-gray-400 flex">
+                <p class="text-blue-300 mr-3"> {{ $t("message.Visitar") }}</p>
                 CodeMaster
               </div></a
             >
@@ -255,8 +255,8 @@
               class="hover:text-cyan-400"
               href="https://genera-tu-codigo-qr.netlify.app/"
             >
-              <div class="text-xl font-semibold text-gray-400 flex">
-                <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
+              <div class="text-lg font-semibold text-gray-400 flex">
+                <p class="text-blue-300 mr-3"> {{ $t("message.Visitar") }}</p>
                 Generador de codigo QR
               </div></a
             >
