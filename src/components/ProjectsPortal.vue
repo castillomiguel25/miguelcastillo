@@ -213,7 +213,7 @@
         <div>
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
             <a target="_blank" class="hover:text-cyan-400" href="#">
-              <div class="text-xl font-semibold text-gray-400">
+              <div class="text-xl font-semibold text-gray-400 flex">
                 <p class="text-blue-300 mr-5">⛓️ {{ $t("message.Visitar") }}</p>
                 CodeMaster
               </div></a
