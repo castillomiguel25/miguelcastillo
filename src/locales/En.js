@@ -22,7 +22,7 @@ export default {
     January: 'January',
     CodeMaster: 'A personal project created to assist JavaScript programmers in practicing exercises, understanding their limitations regarding concepts, and completing interview exercises.',
     QR: 'Web tool to Generate QR code',
-    checkout: 'paypal payment implementation for l2-madness',
+    checkout: 'Website development for L2 Latin America',
     Visitar: 'Visit',
   }
 };

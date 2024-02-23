@@ -290,11 +290,11 @@
             <a
               target="_blank"
               class="hover:text-cyan-400"
-              href="https://l2madness-shop.netlify.app/"
+              href="https://l2latinoamerica.com/"
             >
               <div class="text-lg font-semibold text-gray-400 flex">
                 <p class="text-blue-300 mr-3"> {{ $t("message.Visitar") }}</p>
-                l2-Madness-Shop
+                l2 Latino América
               </div></a
             >
             <div class="ml-3 flex gap-2">
@@ -312,6 +312,11 @@
                 class="rounded-md px-2 py-1 text-xs font-semibold bg-yellow-600 text-white"
               >
                 Javascript
+              </div>
+              <div
+                class="rounded-md px-2 py-1 text-xs font-semibold bg-blue-800 text-white"
+              >
+                Php
               </div>
             </div>
           </div>

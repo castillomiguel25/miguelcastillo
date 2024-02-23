@@ -22,7 +22,7 @@ export default {
     January: 'Enero',
     CodeMaster: 'Proyecto  personal realizado para ayudar a los programadores del lenguaje Javascript a practicar ejercicios, conocer sus limitaciones en cuanto a conceptos y realizacion de ejercicios  de entrevistas.',
     QR: 'Herramienta web para Generar codigo QR',
-    checkout: 'implementación de pago paypal para l2-madness',
+    checkout: 'Desarrolo de Página web para L2LatinoAmérica',
     Visitar: 'Visitar',
   }
 }
