@@ -1,8 +1,8 @@
 <template>
-  <div class="mx-auto max-w-screen-lg px-3 py-6">
-    <p class="text-2xl mb-5">
+  <div class="mx-auto max-w-screen-lg px-3 py-6 font-bold">
+    <p class="text-3xl mb-5">
       {{ $t("message.skills")
-      }}<span class="text-red-400"> {{ $t("message.Demonstrable") }}</span>
+      }}<span class="text-red-600"> {{ $t("message.Demonstrable") }}</span>
     </p>
     <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
       <div v-for="skill in skills" :key="skill.id">

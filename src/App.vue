@@ -7,7 +7,7 @@
     <LoaderVi v-if="isLoading" />
     <nav
       v-if="!isLoading"
-      class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-white text-black mb-3"
+      class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-red-600 text-white mb-3"
     >
       <div
         class="container px-4 mx-auto flex flex-wrap items-center justify-between"
