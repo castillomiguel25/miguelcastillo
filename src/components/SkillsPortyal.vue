@@ -115,7 +115,7 @@ export default {
     this.translateSkills();
   },
   watch: {
-    '$i18n.locale': function () {
+    "$i18n.locale": function () {
       this.translateSkills(); // Call translation method when the language changes
     },
   },
@@ -134,8 +134,7 @@ export default {
           skill.date = this.$t("message.March") + " 2021";
         } else if (skill.title === "React.js") {
           skill.date = this.$t("message.June") + " 2021";
-        } 
-        else if (skill.title === "Next.js") {
+        } else if (skill.title === "Next.js") {
           skill.date = this.$t("message.March") + " 2022";
         }
       });

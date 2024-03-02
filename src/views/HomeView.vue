@@ -3,6 +3,7 @@
     <house-portal />
     <projects-portal />
     <skills-portyal />
+    <forms-portal />
     <footers-portal />
   </div>
 </template>
@@ -10,8 +11,9 @@
 <script>
 import HousePortal from "@/components/HousePortal.vue"
 import ProjectsPortal from "@/components/ProjectsPortal.vue";
-import FootersPortal from "@/components/FootersPortal";
 import SkillsPortyal from '@/components/SkillsPortyal.vue';
+import FormsPortal from "@/components/FormsPortal.vue";
+import FootersPortal from "@/components/FootersPortal";
 
 export default {
   name: "HomeView",
@@ -19,7 +21,8 @@ export default {
     HousePortal,
     FootersPortal,
     ProjectsPortal,
-    SkillsPortyal
+    SkillsPortyal,
+    FormsPortal
   },
 };
 </script>

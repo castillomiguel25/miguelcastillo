@@ -1,54 +1,69 @@
 <template>
   <div class="centered-container">
     <div>
-      <div class="col-span-2 md:col-span-1 p-4 border border-gray-300 rounded text-center">
-        <h4 class="text-lg font-bold mb-4">Contactame</h4>
-        <form
-          id="contactForm"
-          class="contact-form"
-          action="https://formcarry.com/s/0SRqotYRu33"
-          method="POST"
-        >
-          <input
-            class="input-field mb-4 text-black"
-            type="text"
-            name="nombres"
-            id="nombres"
-            placeholder="Escribe tu nombre"
-          />
-          <input
-            class="input-field text-black mb-4"
-            type="text"
-            name="apellidos"
-            id="apellidos"
-            placeholder="Escribe tu apellido"
-          />
-          <input
-            class="input-field text-black mb-4"
-            type="email"
-            name="correo"
-            id="correo"
-            placeholder="Escribe tu email"
-          />
-          <textarea
-            class="input-field text-black mb-4"
-            name="mensaje"
-            id="mensaje"
-            placeholder="Escribe tu mensaje"
-          ></textarea>
-          <input
-            class="submit-button"
-            type="submit"
-            value="Enviar mensaje"
-          />
-        </form>
+      <div class="col-span-1 md:col-span-1 p-4 rounded text-center mb-10">
+        <p class="text-3xl font-bold mb-10">
+          {{ $t("message.Contact") }}
+        </p>
+        <div class="w-full max-w-xs">
+          <form
+            id="contactForm"
+            action="https://formcarry.com/s/0SRqotYRu33"
+            method="POST"
+            class="contact-form bg-white shadow-md rounded w-96 px-8 pt-6 pb-8 mb-4"
+          >
+            <div class="mb-4">
+              <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="Name"
+                name="Name"
+                type="text"
+                :placeholder="$t('message.Name')"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="LastName"
+                name="LastName"
+                type="text"
+                :placeholder="$t('message.LastName')"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="Mail"
+                name="Mail"
+                type="text"
+                :placeholder="$t('message.Mail')"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="Message"
+                name="Message"
+                type="text"
+                :placeholder="$t('message.Message')"
+              />
+            </div>
+            <div class="flex items-center justify-center">
+              <input
+                class="submit-button bg-red-600 text-white"
+                type="submit"
+                :value="$t('message.Send')"
+              />
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import axios from 'axios';
+import axios from "axios";
 export default {
   data() {
     return {
@@ -57,7 +72,9 @@ export default {
     };
   },
   mounted() {
-     document.getElementById('contactForm').addEventListener('submit', this.handleSubmit);
+    document
+      .getElementById("contactForm")
+      .addEventListener("submit", this.handleSubmit);
   },
   methods: {
     idpage() {
@@ -73,11 +90,15 @@ export default {
       const formData = new FormData(form);
 
       try {
-        const response = await axios.post("https://formcarry.com/s/0SRqotYRu33", formData, {
-          headers: {
-            'Content-Type': 'multipart/form-data'
+        const response = await axios.post(
+          "https://formcarry.com/s/0SRqotYRu33",
+          formData,
+          {
+            headers: {
+              "Content-Type": "multipart/form-data",
+            },
           }
-        });
+        );
 
         if (response.status === 200) {
           // Manejar el éxito aquí
@@ -91,7 +112,7 @@ export default {
         // Manejar errores si ocurren problemas de conexión u otros
         alert("Hubo un error al enviar el formulario");
       }
-    }
+    },
   },
   name: "FormsPortal",
 };
@@ -102,19 +123,10 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-}
-
-.input-field {
-  width: calc(100% - 16px);
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 10px;
 }
 
 .submit-button {
-  width: calc(100% - 16px);
+  width: calc(60% - 16px);
   padding: 8px;
   background-color: #3490dc;
   border: none;
