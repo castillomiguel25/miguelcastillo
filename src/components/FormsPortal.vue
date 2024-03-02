@@ -5,12 +5,12 @@
         <p class="text-3xl font-bold mb-10">
           {{ $t("message.Contact") }}
         </p>
-        <div class="w-full">
+        <div>
           <form
             id="contactForm"
             action="https://formcarry.com/s/0SRqotYRu33"
             method="POST"
-            class="contact-form bg-white shadow-md rounded w-96 px-8 pt-6 pb-8 mb-4"
+            class="contact-form bg-white shadow-md px-8 pt-6 pb-8 mb-4"
           >
             <div class="mb-4">
               <input
