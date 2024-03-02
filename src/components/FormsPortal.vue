@@ -5,7 +5,7 @@
         <p class="text-3xl font-bold mb-10">
           {{ $t("message.Contact") }}
         </p>
-        <div class="w-full max-w-xs">
+        <div class="w-full">
           <form
             id="contactForm"
             action="https://formcarry.com/s/0SRqotYRu33"
