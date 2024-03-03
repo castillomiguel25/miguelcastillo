@@ -24,15 +24,6 @@
             <div class="mb-4">
               <input
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="LastName"
-                name="LastName"
-                type="text"
-                :placeholder="$t('message.LastName')"
-              />
-            </div>
-            <div class="mb-4">
-              <input
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="Mail"
                 name="Mail"
                 type="text"
@@ -41,7 +32,7 @@
             </div>
             <div class="mb-4">
               <input
-                class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                class="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="Message"
                 name="Message"
                 type="text"
