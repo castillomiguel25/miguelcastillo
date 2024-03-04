@@ -3,7 +3,7 @@
     <h3 class="text-blue-400 text-2xl font-bold">{{ $t('message.greeting') }}👋</h3>
     <h1 class="text-4xl font-bold">Miguel Angel Castillo Colmenares</h1>
     <span class="ml-3 text-5xl text-red-600 font-bold">Frontend Developer</span>
-    <p class="text-1xl mb-5 mt-3">
+    <p class="text-2xl mb-5 mt-3">
       {{ $t('message.presentation') }}
     </p>
     <div class="flex gap-1">

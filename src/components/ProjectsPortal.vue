@@ -89,6 +89,20 @@ export default {
           description: 'message.checkout',
           technologies: ['JavaScript', 'Php', 'CSS', 'Tailwind CSS']
         }, 
+        {
+          emoji: '💎',
+          projectName: 'Juego Arkanoid',
+          link: 'https://juego-arkanoid.netlify.app/',
+          description: 'message.Arkanoid',
+          technologies: ['JavaScript','CSS']
+        }, 
+        {
+          emoji: '💎',
+          projectName: 'Juego Zodiaco',
+          link: 'https://castillomiguel25.github.io/taller-practico-de-javascript-video-juegos/',
+          description: 'message.Zodiaco',
+          technologies: ['JavaScript','CSS']
+        }, 
       ]
     };
   }
