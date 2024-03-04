@@ -3,7 +3,7 @@
     <house-portal />
     <projects-portal />
     <skills-portyal />
-    <forms-portal />
+    <forms-portal class="none" />
     <footers-portal />
   </div>
 </template>
@@ -26,3 +26,14 @@ export default {
   },
 };
 </script>
+
+
+<style>
+  @media only screen and (min-width: 768px) {
+
+    .none{
+      display: none;
+    }
+
+  }
+</style>

@@ -13,13 +13,11 @@
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
             <a
               target="_blank"
-              class="hover:text-cyan-400"
+              class="py-2 px-3 bg-gray-800 border border-gray-600 rounded-xl"
               href="https://tuexchangecrypto.netlify.app/"
             >
-              <div
-                class="text-lg font-semibold text-white flex"
-              >
-                <p class="text-red-600 mr-3"> {{ $t("message.Visitar") }}</p>
+              <div class="text-lg font-semibold text-white flex">
+                <p class="text-red-600 mr-3">{{ $t("message.Visitar") }}</p>
                 Exchange
               </div></a
             >
@@ -36,9 +34,7 @@
               </div>
             </div>
           </div>
-          <p class="mt-3 text-white">
-            Exchange : {{ $t("message.Exchange") }}
-          </p>
+          <p class="mt-3 text-white">Exchange : {{ $t("message.Exchange") }}</p>
         </div>
       </div>
     </div>
@@ -52,13 +48,11 @@
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
             <a
               target="_blank"
-              class="hover:text-cyan-400"
+              class="py-2 px-3 bg-gray-800 border border-gray-600 rounded-xl"
               href="https://cambiatudolar.netlify.app/"
             >
-              <div
-                class="text-lg font-semibold text-white flex"
-              >
-                <p class="text-red-600 mr-3"> {{ $t("message.Visitar") }}</p>
+              <div class="text-lg font-semibold text-white flex">
+                <p class="text-red-600 mr-3">{{ $t("message.Visitar") }}</p>
                 Cambia tu Dolar
               </div></a
             >
@@ -75,9 +69,7 @@
               </div>
             </div>
           </div>
-          <p class="mt-3 text-white">
-            Exchange : {{ $t("message.dolar") }}
-          </p>
+          <p class="mt-3 text-white">Exchange : {{ $t("message.dolar") }}</p>
         </div>
       </div>
     </div>
@@ -91,11 +83,11 @@
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
             <a
               target="_blank"
-              class="hover:text-cyan-400"
+              class="py-2 px-3 bg-gray-800 border border-gray-600 rounded-xl"
               href="https://managemoneycash.netlify.app/"
             >
               <div class="text-lg font-semibold text-white flex">
-                <p class="text-red-600 mr-3"> {{ $t("message.Visitar") }}</p>
+                <p class="text-red-600 mr-3">{{ $t("message.Visitar") }}</p>
                 ManageMoney
               </div></a
             >
@@ -118,9 +110,7 @@
               </div>
             </div>
           </div>
-          <p class="mt-3 text-white">
-            ManageMoney: {{ $t("message.Manage") }}
-          </p>
+          <p class="mt-3 text-white">ManageMoney: {{ $t("message.Manage") }}</p>
         </div>
       </div>
     </div>
@@ -134,11 +124,11 @@
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
             <a
               target="_blank"
-              class="hover:text-cyan-400"
+              class="py-2 px-3 bg-gray-800 border border-gray-600 rounded-xl"
               href="https://castillomiguel25.github.io/api-rest-javascript-movie/"
             >
               <div class="text-lg font-semibold text-white flex">
-                <p class="text-red-600 mr-3"> {{ $t("message.Visitar") }}</p>
+                <p class="text-red-600 mr-3">{{ $t("message.Visitar") }}</p>
                 TheMovie
               </div></a
             >
@@ -169,11 +159,11 @@
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
             <a
               target="_blank"
-              class="hover:text-cyan-400"
+              class="py-2 px-3 bg-gray-800 border border-gray-600 rounded-xl"
               href="https://serviciosdigitales.netlify.app/"
             >
               <div class="text-lg font-semibold text-white flex">
-                <p class="text-red-600 mr-3"> {{ $t("message.Visitar") }}</p>
+                <p class="text-red-600 mr-3">{{ $t("message.Visitar") }}</p>
                 Servicios Digitales
               </div></a
             >
@@ -195,9 +185,7 @@
               </div>
             </div>
           </div>
-          <p class="mt-3 text-white">
-            TheMovie: {{ $t("message.services") }}
-          </p>
+          <p class="mt-3 text-white">TheMovie: {{ $t("message.services") }}</p>
         </div>
       </div>
     </div>
@@ -211,11 +199,11 @@
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
             <a
               target="_blank"
-              class="hover:text-cyan-400"
+              class="py-2 px-3 bg-gray-800 border border-gray-600 rounded-xl"
               href="https://www.cerrajerosre.com/"
             >
               <div class="text-lg font-semibold text-white flex">
-                <p class="text-red-600 mr-3"> {{ $t("message.Visitar") }}</p>
+                <p class="text-red-600 mr-3">{{ $t("message.Visitar") }}</p>
                 Cerrajeros R&E
               </div></a
             >
@@ -251,9 +239,9 @@
         <div class="shrink-0 text-3xl">💎</div>
         <div>
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
-            <a target="_blank" class="hover:text-cyan-400" href="#">
+            <a target="_blank" class="py-2 px-3 bg-gray-800 border border-gray-600 rounded-xl" href="#">
               <div class="text-lg font-semibold text-white flex">
-                <p class="text-red-600 mr-3"> {{ $t("message.Visitar") }}</p>
+                <p class="text-red-600 mr-3">{{ $t("message.Visitar") }}</p>
                 CodeMaster
               </div></a
             >
@@ -291,11 +279,11 @@
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
             <a
               target="_blank"
-              class="hover:text-cyan-400"
+              class="py-2 px-3 bg-gray-800 border border-gray-600 rounded-xl"
               href="https://genera-tu-codigo-qr.netlify.app/"
             >
               <div class="text-lg font-semibold text-white flex">
-                <p class="text-red-600 mr-3"> {{ $t("message.Visitar") }}</p>
+                <p class="text-red-600 mr-3">{{ $t("message.Visitar") }}</p>
                 Generador de codigo QR
               </div></a
             >
@@ -328,11 +316,11 @@
           <div class="flex flex-col items-center gap-y-2 md:flex-row">
             <a
               target="_blank"
-              class="hover:text-cyan-400"
+              class="py-2 px-3 bg-gray-800 border border-gray-600 rounded-xl"
               href="https://l2latinoamerica.com/"
             >
               <div class="text-lg font-semibold text-white flex">
-                <p class="text-red-600 mr-3"> {{ $t("message.Visitar") }}</p>
+                <p class="text-red-600 mr-3">{{ $t("message.Visitar") }}</p>
                 l2 Latino América
               </div></a
             >

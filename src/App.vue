@@ -38,7 +38,7 @@
               <a class="mt-2" href="#">
                 <button @click="changeLanguage('es')">
                   <img
-                    class="w-8 object-cover h-8 rounded-full border border-gray-300"
+                    class="w-8 object-cover h-6 rounded border border-gray-300"
                     src="./assets/spain.webp"
                     alt="bandera españa"
                   />
@@ -49,7 +49,7 @@
               <a class="mt-2" href="#">
                 <button @click="changeLanguage('en')">
                   <img
-                    class="w-8 object-cover h-8 rounded-full border border-gray-300"
+                    class="w-8 object-cover h-6 rounded border border-gray-300"
                     src="./assets/usa.jpg"
                     alt="bandera usa"
                   />
@@ -104,8 +104,8 @@ export default {
       showMenu: false,
       isLoading: true,
       on: false,
-      fondo: "0f0f0f",
-      colores: "f0f0f0",
+      fondo: "f0f0f0",
+      colores: "0f0f0f",
     };
   },
   mounted() {

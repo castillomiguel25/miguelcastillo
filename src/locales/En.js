@@ -1,7 +1,7 @@
 export default {
   message: {
     greeting: 'Hello, I am',
-    presentation: 'Welcome to my digital world! My portfolio is a reflection of my journey in the web development realm, and I would love to share it with you.',
+    presentation: 'My portfolio is a reflection of my journey in the web development realm, and I would love to share it with you.',
     project: 'Projects',
     Recientes: 'Recent',
     Contact: 'Contact me',
